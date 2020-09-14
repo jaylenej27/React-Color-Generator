@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { setBg } from './setBg';
+
+import { DisplayColor } from './display';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Let's color</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Color Generator
-        </a>
+        <h1>Let's color!</h1>
       </header>
+      <DisplayColor>
+        <button>New Color</button>
+      </DisplayColor>
     </div>
   );
 }
 
 export default App;
+//onClick={handleClick} button
