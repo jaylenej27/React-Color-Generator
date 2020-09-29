@@ -3,7 +3,7 @@
 Users can click to generate randoms colors and the program will inform you which
 RGB colors it is. Button displays in complementary color (light vs dark shade)
 
-Created in Sept 2020 by Jenna Koelbl
+Created in Sept 2020 by Jenna Koelbl  
 Uses Emotion, CSS sheets and JSX styling
 
 https://emotion.sh/docs/introduction

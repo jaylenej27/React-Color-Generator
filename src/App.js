@@ -51,14 +51,11 @@ function App() {
       </header>
       <div css={ColorSquare(formatColor(color))}>
         <ContrastButton
-          //button
-          //css={GenerateButton}
           light={isLight(color)}
           onClick={() => setColor(chooseColor())}
         >
           New Color
         </ContrastButton>
-        {/* </button> */}
       </div>
       <h2>Your color is: {formatColor(color)}</h2>
     </div>

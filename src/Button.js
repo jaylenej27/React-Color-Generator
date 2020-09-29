@@ -20,4 +20,5 @@ export const ContrastButton = styled.button`
   color: ${({ light }) => {
     return light ? 'rgb(0, 0, 0)' : 'rgb(255, 255, 255)';
   }};
+  outline: none;
 `;
